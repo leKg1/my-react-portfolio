@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Testimonials = () => {
    const [testimonials, setTestimonials] = useState([
-      {id: 0, text: "We developed a great partnership with Gouaby and his dedication was just wow. I will admit - originally the thought of outsourcing scared the hell out of me as a business owner. In the beginning of the relationship between us and Gouaby, there were times when it was difficult to communicate but if you can just get through the first week or so everything starts to come together.", user: "Nico Kraus"},
+      {id: 0, text: "We developed a great partnership with Gouaby and his dedication was just wow.", user: "Nico Kraus"},
     ])
 
       const testimonials1 = testimonials.map(testimonials => {

@@ -31,10 +31,7 @@ const About = () => {
          <div className="nine columns main-col">
             <h2>About Me</h2>
 
-            <p>In middle of January 2018 i started learning code. It was not easy and my days became:
-            Work(code during my free time) -> home -> code -> sleep -> repeat.
-            This was my life for almost 2 year, finally in the end of 2019 i quit my job and started working remotely as both web and junior blockchain developer.
-            I started my journey because i wanted to use my time to make a change in my life. I think no matter where you are from, black, white, yellow or red, if you use wisely your time you can change your life.
+            <p>
             I am a determined and productive developer with a passion for creative solutions.</p>
             <div className="row">
                <div className="columns contact-details">
