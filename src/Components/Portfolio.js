@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import portfolio from "../assets/portfolio.png"
 import movieDB from "../assets/movieDB.jpeg"
 import doiContactsLogo from "../assets/logo512.png"
-import { Document, Page } from 'react-pdf/dist/entry.webpack';  
-import certificatesPdf from "../assets/GouabyKalivoguiCertificate.pdf"  
+// import { Document, Page } from 'react-pdf/dist/entry.webpack';  
+// import certificatesPdf from "../assets/GouabyKalivoguiCertificate.pdf"  
 
 const Portfolio = () => {
   const [projects, setProjects] = useState([
@@ -36,17 +36,17 @@ const Portfolio = () => {
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works and certificates.</h1>
+            <h1>Check Out Some of My Works.</h1>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
              <div className="bgrid-quarters s-bgrid-thirds cf">
                 {myProjects}
               </div>
-              <div className="bgrid-quarters s-bgrid-thirds cf">
+              {/*<div className="bgrid-quarters s-bgrid-thirds cf">
                 <Document file={certificatesPdf}>
                 <Page pageNumber={1} />
                 </Document>
-              </div>
+    </div>*/}
             </div>
           </div>
       </div>
