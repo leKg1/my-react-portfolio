@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Testimonials = () => {
-   const [testimonials, setTestimonials] = useState([
+   const [testimonials] = useState([
       {id: 0, text: "We developed a great partnership with Gouaby and his dedication was just wow.", user: "Nico Kraus"},
     ])
 

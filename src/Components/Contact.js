@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Contact = () => {
-   const [data, setData] = useState([
+   const [data] = useState([
       { id: 0, city: "Yekaterinburg", state: "Sverdlovsk Oblast",
         zip: "620000", phone: "+7 912 043 1929",
         email: "gouabyk14@yahoo.fr",

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Footer = () => {
-  const [network, setNetwork] = useState([
+  const [network] = useState([
     {id: 0, name: "instagram", url: "https://www.instagram.com/le_kg", className: "fa fa-instagram"},
     {id: 1, name: "facebook", url: "https://www.facebook.com/kalivoguigouaby", className: "fa fa-facebook"}
  ])

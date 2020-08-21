@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 const Header = () => {
-   const [network, setNetwork] = useState([
+   const [network] = useState([
       {id: 0, name: "instagram", url: "https://www.instagram.com/le_kg", className: "fa fa-instagram"},
       {id: 1, name: "facebook", url: "https://www.facebook.com/kalivoguigouaby", className: "fa fa-facebook"}
    ])
-   const [data, setData] = useState([
+   const [data] = useState([
       {id: 0, occupation: "Web and Blockchain developer", city: "Yekaterinburg, Russia"},
    ])
 
