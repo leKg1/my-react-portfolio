@@ -8,8 +8,8 @@ import doiContactsLogo from "../assets/logo512.png"
 const Portfolio = () => {
   const [projects] = useState([
     {id: 0, title: "DoiContacts", category: "A blockchain project to reduce email spam", url: "https://github.com/inspiraluna/doiContacts", photo: doiContactsLogo},
-    {id: 1, title: "Movie finder App", category: "A simple React Native App to fetch movies info from API", url: "https://github.com/leKg1/simple-react-native-movieDB", photo: movieDB},
-    {id: 2, title: "Portfolio site", category: "My react portfolio", url: "https://www.gouaby-kalivogui.tk/", photo: portfolio},
+    {id: 1, title: "Movie finder App", category: "A simple React Native App to obtain movie information from a RESTful web service", url: "https://github.com/leKg1/simple-react-native-movieDB", photo: movieDB},
+    {id: 2, title: "Portfolio site", category: "My react portfolio hosted on IPFS a peer-to-peer hypermedia protocol", url: "https://www.gouaby-kalivogui.tk/", photo: portfolio},
   ])
 
       const myProjects = projects.map(project => {
